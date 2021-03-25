@@ -3,5 +3,32 @@ body {
 }
 
 .card {
-    
+    background: url('images/backgorund.png') no-repeat;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    background-size: cover;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.linkedin {
+    list-style-image: url('images/linkedin.png');
+    padding-bottom: -5px;
+}
+
+.github {
+    list-style-image: url('images/gihub.png');
+    padding-bottom: -5px;
+}
+
+.medium {
+    list-style-image: url('images/medium.jpeg');
+    padding-bottom: -5px;
 }
